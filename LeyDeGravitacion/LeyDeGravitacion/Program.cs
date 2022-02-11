@@ -18,6 +18,11 @@ namespace LeyDeGravitacion
             Console.WriteLine("Ingrese la masa del cuerpo 2");
             int m2 = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Escriba la distancia entre los centros de los cuerpos ");
+            int r = int.Parse(Console.ReadLine());
+
+            double G = 9.81;
+
 
             Console.ReadKey();
         }
