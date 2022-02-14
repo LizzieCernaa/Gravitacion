@@ -23,6 +23,8 @@ namespace LeyDeGravitacion
 
             double G = 9.81;
 
+            double F = G * ((m1 + m2) / Math.Pow(r, 2));
+            Console.WriteLine("El resultado es:" + F);
 
             Console.ReadKey();
         }
